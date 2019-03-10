@@ -1,7 +1,8 @@
-/* global google */
-import LocalList from './LocalList'
 import React, { Component } from 'react'
-
+import LocalList from './LocalList'
+import LocalRegistration from './LocalRegistration'
+import VolunteerRegistration from './VolunteerRegistration'
+import Comment from './CommentRegistration'
 class Home extends Component {
   state = {
     selectedLanguage: ''
@@ -37,7 +38,6 @@ class Home extends Component {
           </div>
           <div className="registration-section">
             <a src="#">New Local</a>
-            <a src="#">New Volunteer</a>
           </div>
           {/* DO NOT DELETE IT */}
           {/* <p>{this.state.selectedLanguage}</p>
@@ -45,6 +45,9 @@ class Home extends Component {
           {/* DO NOT DELETE IT */}
         </div>
         <LocalList />
+        <LocalRegistration />
+        <VolunteerRegistration />
+        <Comment />
       </>
     )
   }

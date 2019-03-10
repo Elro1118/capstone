@@ -14,19 +14,14 @@ body {
   margin: 0;
   min-height: 100%;
 }
+/* Home component begins */
 h1 {
   font-family: 'Luckiest Guy', cursive;
 }
 a {
   margin: 0 1rem 1rem 1rem;
 }
-table {
-  text-align: center;
-  width: 100%;
-}
-.place-list-section {
-  margin: 1rem;
-}
+
 .home-section {
   display: flex;
   align-items: center;
@@ -59,4 +54,53 @@ table {
 .language-section {
   display: flex;
   justify-content: top;
+}
+/* Home component ends */
+/* LocalList component begins */
+.local-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.local-list table {
+  text-align: center;
+}
+.local-list th {
+  padding: 0.5rem;
+}
+.local-list td {
+  padding: 0.5rem;
+}
+/* LocalList component ends */
+/* LocalRegistration component begins */
+.local-registration-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* LocalRegistration component ends */
+/* VolunteerRegistration component begins */
+.volunteer-registration-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* VolunteerRegistration component ends */
+/* CommentRegistration begins */
+.comment-registration-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* CommentRegistration ends */
+.form-row {
+  padding: 0.5rem 0;
+  display: flex;
+}
+.form-row label {
+  padding-right: 0.5rem;
+}
+
+.form-row input {
+  flex: 1;
 }
