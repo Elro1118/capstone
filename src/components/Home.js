@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import LocalList from './LocalList'
-import LocalRegistration from './LocalRegistration'
-import VolunteerRegistration from './VolunteerRegistration'
-import Comment from './CommentRegistration'
+import { Link } from 'react-router-dom'
+
 class Home extends Component {
   state = {
     selectedLanguage: ''
@@ -26,18 +25,29 @@ class Home extends Component {
           rel="stylesheet"
         />
         <div className="home-section">
-          <h1>MIGO!</h1>
+          <div className="resume">
+            <h1>MIGO!</h1>
+            <p>
+              Hi friends! I will help you to search for places where you can
+              take free English classes and improve your talking skills.
+            </p>
+          </div>
           <div className="language-section">
             <p className="language-word">Language</p>
             <div id="google_translate_element" />
           </div>
           <div className="search-city-section">
-            <p className="city-section">City</p>
+            <p className="city-section">City:</p>
             <input className="text-section" type="text" />
             <button className="button-section">Search</button>
           </div>
-          <div className="registration-section">
-            <a src="#">New Local</a>
+          <div className="logIn-signUp-section">
+            <Link to={`LogIn`}>
+              <p>Log In</p>
+            </Link>
+            <Link to={`User`}>
+              <p>Sign Up</p>
+            </Link>
           </div>
           {/* DO NOT DELETE IT */}
           {/* <p>{this.state.selectedLanguage}</p>
@@ -45,9 +55,6 @@ class Home extends Component {
           {/* DO NOT DELETE IT */}
         </div>
         <LocalList />
-        <LocalRegistration />
-        <VolunteerRegistration />
-        <Comment />
       </>
     )
   }

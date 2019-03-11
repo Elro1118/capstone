@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-class VolunteerRegistration extends Component {
+
+class UserRegistration extends Component {
   render() {
     return (
       <>
         <h4>
-          <Link to={`/`}>Home</Link> / Volunteer Registration
+          <Link to={`/`}>Home</Link> / User Registration
         </h4>
         <div className="volunteer-registration-section">
-          <h2>Volunteer Registration for Pasadena Church</h2>
+          <h2>User Registration for MIGO</h2>
           <form action="">
             <div className="form-row">
               <label htmlFor="name">Name:</label>
@@ -30,4 +31,4 @@ class VolunteerRegistration extends Component {
   }
 }
 
-export default VolunteerRegistration
+export default UserRegistration

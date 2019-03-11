@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import { Link } from 'react-router-dom'
 class LocalList extends Component {
   render() {
     return (
@@ -24,46 +24,66 @@ class LocalList extends Component {
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>
-                <td>Add</td>
-                <td>Add</td>
                 <td>
-                  <i className="fas fa-info-circle" />
+                  <Link to={`Volunteer/1`}>Add</Link>
+                </td>
+                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Detail/1`}>
+                    <i className="fas fa-info-circle" />
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>
-                <td>Add</td>
-                <td>Add</td>
                 <td>
-                  <i className="fas fa-info-circle" />
+                  <Link to={`Volunteer/1`}>Add</Link>
+                </td>
+                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Detail/1`}>
+                    <i className="fas fa-info-circle" />
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>
-                <td>Add</td>
-                <td>Add</td>
                 <td>
-                  <i className="fas fa-info-circle" />
+                  <Link to={`Volunteer/1`}>Add</Link>
+                </td>
+                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Detail/1`}>
+                    <i className="fas fa-info-circle" />
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>
-                <td>Add</td>
-                <td>Add</td>
                 <td>
-                  <i className="fas fa-info-circle" />
+                  <Link to={`Volunteer/1`}>Add</Link>
+                </td>
+                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Detail/1`}>
+                    <i className="fas fa-info-circle" />
+                  </Link>
                 </td>
               </tr>
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>
-                <td>Add</td>
-                <td>Add</td>
                 <td>
-                  <i className="fas fa-info-circle" />
+                  <Link to={`Volunteer/1`}>Add</Link>
+                </td>
+                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Detail/1`}>
+                    <i className="fas fa-info-circle" />
+                  </Link>
                 </td>
               </tr>
             </tbody>

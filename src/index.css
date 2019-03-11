@@ -15,13 +15,6 @@ body {
   min-height: 100%;
 }
 /* Home component begins */
-h1 {
-  font-family: 'Luckiest Guy', cursive;
-}
-a {
-  margin: 0 1rem 1rem 1rem;
-}
-
 .home-section {
   display: flex;
   align-items: center;
@@ -29,6 +22,21 @@ a {
   flex-flow: column wrap;
   border-radius: 1rem;
   box-shadow: 0 0.1rem 0.5rem rgba(0, 0, 0, 0.2);
+  background-color: #eec170;
+}
+.resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume p {
+  width: 40%;
+  text-align: justify;
+  margin: 0.5rem 0rem;
+}
+.resume h1 {
+  font-family: 'Luckiest Guy', cursive;
+  margin: 0.5rem 0rem;
 }
 .language-section {
   display: flex;
@@ -55,12 +63,22 @@ a {
   display: flex;
   justify-content: top;
 }
+.logIn-signUp-section {
+  display: flex;
+}
+.logIn-signUp-section p {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 /* Home component ends */
 /* LocalList component begins */
 .local-list {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eec170;
+  border-radius: 1rem;
+  margin: 2rem;
 }
 .local-list table {
   text-align: center;
@@ -77,6 +95,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eec170;
 }
 /* LocalRegistration component ends */
 /* VolunteerRegistration component begins */
@@ -84,6 +103,10 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eec170;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 /* VolunteerRegistration component ends */
 /* CommentRegistration begins */
@@ -91,8 +114,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #eec170;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 /* CommentRegistration ends */
+/* Style to all forms begin */
 .form-row {
   padding: 0.5rem 0;
   display: flex;
@@ -100,7 +128,46 @@ a {
 .form-row label {
   padding-right: 0.5rem;
 }
-
 .form-row input {
   flex: 1;
 }
+/* Style to all forms end */
+/* LocalDetail component begins */
+.main-section {
+  display: flex;
+  margin: 5rem;
+}
+.detail-volunteer,
+.comment-list {
+  flex: 1;
+}
+.comment-list {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #f58549;
+  padding: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.comment-list img {
+  flex-basis: 5%;
+}
+.detail-volunteer {
+  display: flex;
+  flex-direction: column;
+}
+.volunteer-list {
+  flex: 1;
+  background-color: #f2a65a;
+  padding-left: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.detail-section {
+  flex: 1;
+  background-color: #eec170;
+  border-top-left-radius: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+/* LocalDetail component begins */
