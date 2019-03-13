@@ -27,7 +27,9 @@ class LocalList extends Component {
                 <td>
                   <Link to={`Volunteer/1`}>Add</Link>
                 </td>
-                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Comment/1`}>Add</Link>
+                </td>
                 <td>
                   <Link to={`Detail/1`}>
                     <i className="fas fa-info-circle" />
@@ -40,7 +42,9 @@ class LocalList extends Component {
                 <td>
                   <Link to={`Volunteer/1`}>Add</Link>
                 </td>
-                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Comment/1`}>Add</Link>
+                </td>
                 <td>
                   <Link to={`Detail/1`}>
                     <i className="fas fa-info-circle" />
@@ -53,7 +57,9 @@ class LocalList extends Component {
                 <td>
                   <Link to={`Volunteer/1`}>Add</Link>
                 </td>
-                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Comment/1`}>Add</Link>
+                </td>
                 <td>
                   <Link to={`Detail/1`}>
                     <i className="fas fa-info-circle" />
@@ -66,7 +72,9 @@ class LocalList extends Component {
                 <td>
                   <Link to={`Volunteer/1`}>Add</Link>
                 </td>
-                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Comment/1`}>Add</Link>
+                </td>
                 <td>
                   <Link to={`Detail/1`}>
                     <i className="fas fa-info-circle" />
@@ -79,7 +87,9 @@ class LocalList extends Component {
                 <td>
                   <Link to={`Volunteer/1`}>Add</Link>
                 </td>
-                <Link to={`Comment/1`}>Add</Link>
+                <td>
+                  <Link to={`Comment/1`}>Add</Link>
+                </td>
                 <td>
                   <Link to={`Detail/1`}>
                     <i className="fas fa-info-circle" />

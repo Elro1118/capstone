@@ -149,9 +149,7 @@ body {
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
-.comment-list img {
-  flex-basis: 5%;
-}
+
 .detail-volunteer {
   display: flex;
   flex-direction: column;
@@ -162,6 +160,17 @@ body {
   padding-left: 1rem;
   border-bottom-left-radius: 1rem;
 }
+.frame-picture {
+  height: 10%;
+  border: 0.1rem solid black;
+}
+
+.volunteer-list img {
+  height: 100%;
+  border: 0.1rem solid red;
+  object-fit: scale-down;
+}
+
 .detail-section {
   flex: 1;
   background-color: #eec170;

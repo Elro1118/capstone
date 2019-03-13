@@ -24,7 +24,7 @@ class App extends Component {
               component={CommentRegistration}
             />
             <Route exact path="/Detail/:idLocal" component={LocalDetail} />
-            <Router exact path="/User" component={UserRegistration} />
+            <Route exact path="/User" component={UserRegistration} />
           </Switch>
         </Router>
       </>

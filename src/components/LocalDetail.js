@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+
+import imageMarlene from '../images/Marlenes.jpg'
+import imageTeresa from '../images/Teresas.jpg'
+import imageSilvana from '../images/Silvanas.jpg'
+
 class LocalDetail extends Component {
   render() {
     return (
@@ -21,9 +26,11 @@ class LocalDetail extends Component {
             </div>
             <div className="volunteer-list">
               <h2>Volunteers</h2>
-              <img id="1" src="/images/Marlenes.jpg" alt="Marlene" />
-              <img id="2" src="./images/Teresas.jpg" alt="Teresa" />
-              <img id="3" src="../images/Silvanas.jpg" alt="Silvana" />
+              <div className="frame-picture">
+                <img className="fill" src={imageMarlene} alt="Marlene" />
+                <img className="fill" src={imageTeresa} alt="Teresa" />
+                <img className="fill" src={imageSilvana} alt="Silvana" />
+              </div>
             </div>
           </div>
           <div className="comment-list">
