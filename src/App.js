@@ -5,7 +5,8 @@ import VolunteerRegistration from './components/VolunteerRegistration'
 import CommentRegistration from './components/CommentRegistration'
 import LocalDetail from './components/LocalDetail'
 import UserRegistration from './components/UserRegistration'
-
+import LogIn from './components/LogIn'
+import LocalList from './components/LocalList'
 class App extends Component {
   render() {
     return (
@@ -15,16 +16,18 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route
               exact
-              path="/Volunteer/:idLocal"
+              path="/List/Volunteer/:idLocal"
               component={VolunteerRegistration}
             />
             <Route
               exact
-              path="/Comment/:idLocal"
+              path="/List/Comment/:idLocal"
               component={CommentRegistration}
             />
-            <Route exact path="/Detail/:idLocal" component={LocalDetail} />
+            <Route exact path="/List/Detail/:idLocal" component={LocalDetail} />
             <Route exact path="/User" component={UserRegistration} />
+            <Route exact path="/LogIn" component={LogIn} />
+            <Route exact path="/List/:idSearch" component={LocalList} />
           </Switch>
         </Router>
       </>

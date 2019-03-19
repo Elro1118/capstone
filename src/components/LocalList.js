@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import NavigationHome from './NavigationHome'
 class LocalList extends Component {
   render() {
     return (
@@ -10,6 +11,7 @@ class LocalList extends Component {
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
           crossOrigin="anonymous"
         />
+        <NavigationHome title="List" />
         <div className="local-list">
           <h2>Local List</h2>
           <table>

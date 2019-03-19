@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import NavigationList from './NavigationList'
 class VolunteerRegistration extends Component {
   render() {
     return (
       <>
-        <h4>
-          <Link to={`/`}>Home</Link> / Volunteer Registration
-        </h4>
+        <NavigationList title="Volunteer Registration" />
         <div className="volunteer-registration-section">
-          <h2>Volunteer Registration for Pasadena Church</h2>
+          <h2>Volunteer for Pasadena Church</h2>
           <form action="">
             <div className="form-row">
               <label htmlFor="name">Name:</label>

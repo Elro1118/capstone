@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+import NavigationList from './NavigationList'
 
 import imageMarlene from '../images/Marlenes.jpg'
 import imageTeresa from '../images/Teresas.jpg'
@@ -9,9 +9,7 @@ class LocalDetail extends Component {
   render() {
     return (
       <>
-        <h4>
-          <Link to={`/`}>Home</Link> / Local Detail
-        </h4>
+        <NavigationList title="Detail" />
         <div className="main-section">
           <div className="detail-volunteer">
             <div className="detail-section">

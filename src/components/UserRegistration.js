@@ -1,15 +1,12 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-
+import NavigationHome from './NavigationHome'
 class UserRegistration extends Component {
   render() {
     return (
       <>
-        <h4>
-          <Link to={`/`}>Home</Link> / User Registration
-        </h4>
+        <NavigationHome title="Sign Up" />
         <div className="volunteer-registration-section">
-          <h2>User Registration for MIGO</h2>
+          <h2>Sign Up</h2>
           <form action="">
             <div className="form-row">
               <label htmlFor="name">Name:</label>
@@ -22,6 +19,10 @@ class UserRegistration extends Component {
             <div className="form-row">
               <label htmlFor="email">Email:</label>
               <input type="text" placeholder="myemail@gmail.com" />
+            </div>
+            <div className="form-row">
+              <label htmlFor="password">Password:</label>
+              <input type="password" placeholder="......" />
             </div>
           </form>
           <button>Save it!</button>
