@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import NavigationHome from './NavigationHome'
+import { Link } from 'react-router-dom'
 class LogIn extends Component {
   render() {
     return (
@@ -15,7 +16,9 @@ class LogIn extends Component {
               <input type="text" placeholder="Password" />
             </div>
           </form>
-          <button>Log In</button>
+          <Link to={`/LoginIn/1`}>
+            <button>Log In</button>
+          </Link>
         </div>
       </>
     )

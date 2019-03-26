@@ -252,6 +252,20 @@ body {
 }
 /* LocalDetail component begins */
 
+nav {
+  border: 0.1rem solid red;
+  margin: 0;
+  border-radius: 1rem;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+}
+
 @media (max-width: 600px) {
   body {
     display: flex;

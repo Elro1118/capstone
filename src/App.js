@@ -7,6 +7,7 @@ import LocalDetail from './components/LocalDetail'
 import UserRegistration from './components/UserRegistration'
 import LogIn from './components/LogIn'
 import LocalList from './components/LocalList'
+import UserSession from './components/UserSession'
 class App extends Component {
   render() {
     return (
@@ -28,6 +29,7 @@ class App extends Component {
             <Route exact path="/User" component={UserRegistration} />
             <Route exact path="/LogIn" component={LogIn} />
             <Route exact path="/List/:idSearch" component={LocalList} />
+            <Route exact path="/LoginIn/:idUser" component={UserSession} />
           </Switch>
         </Router>
       </>
