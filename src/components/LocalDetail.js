@@ -27,9 +27,15 @@ class LocalDetail extends Component {
             <div className="volunteer-list">
               <h2>Volunteers</h2>
               <div className="frame-picture">
-                <img className="fill" src={imageMarlene} alt="Marlene" />
-                <img className="fill" src={imageTeresa} alt="Teresa" />
-                <img className="fill" src={imageSilvana} alt="Silvana" />
+                <img src={imageMarlene} alt="Marlene" />
+                <img src={imageMarlene} alt="Marlene" />
+                <img src={imageMarlene} alt="Marlene" />
+                <img src={imageTeresa} alt="Teresa" />
+                <img src={imageTeresa} alt="Teresa" />
+                <img src={imageTeresa} alt="Teresa" />
+                <img src={imageSilvana} alt="Silvana" />
+                <img src={imageSilvana} alt="Silvana" />
+                <img src={imageSilvana} alt="Silvana" />
               </div>
             </div>
           </div>
