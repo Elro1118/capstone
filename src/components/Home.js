@@ -28,7 +28,8 @@ class Home extends Component {
           <img
             src={homePicture}
             alt="Tim Mossholder on Unsplash"
-            height="100%"
+            height="400"
+            width="600"
           />
           <div className="home-section">
             <div className="resume">
