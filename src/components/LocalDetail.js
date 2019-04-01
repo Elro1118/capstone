@@ -14,13 +14,15 @@ class LocalDetail extends Component {
           <div className="detail-volunteer">
             <div className="detail-section">
               <h2>Detail</h2>
-              <label htmlFor="local">Local: Pasadena Church</label>
-              <label htmlFor="location">
-                Location: 227 70th St S, St Petersburg, FL 33707
-              </label>
-              <label htmlFor="schedule">
-                Schedule: Tuesday at 10:00am to 12:00m
-              </label>
+              <div className="label-detail">
+                <label htmlFor="local">Local: Pasadena Church</label>
+                <label htmlFor="location">
+                  Location: 227 70th St S, St Petersburg, FL 33707
+                </label>
+                <label htmlFor="schedule">
+                  Schedule: Tuesday at 10:00am to 12:00m
+                </label>
+              </div>
             </div>
             <div className="volunteer-list">
               <h2>Volunteers</h2>
