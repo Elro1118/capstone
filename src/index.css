@@ -97,6 +97,9 @@ body {
 }
 /* Home component ends */
 /* LocalList component begins */
+/* .table-responsive {
+  overflow-x: auto;
+} */
 /* .local-list {
   display: flex;
   flex-direction: column;
