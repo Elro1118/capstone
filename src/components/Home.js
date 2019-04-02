@@ -19,7 +19,7 @@ class Home extends Component {
 
   render() {
     return (
-      <>
+      <section className="home-container">
         <link
           href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans"
           rel="stylesheet"
@@ -67,7 +67,7 @@ class Home extends Component {
             {/* DO NOT DELETE IT */}
           </div>
         </div>
-      </>
+      </section>
     )
   }
 }
