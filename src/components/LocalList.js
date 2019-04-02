@@ -12,10 +12,10 @@ class LocalList extends Component {
           crossOrigin="anonymous"
         />
         <NavigationHome title="List" />
-        <div className="local-list">
-          <h2>Local List</h2>
-          <table>
-            <tbody>
+        <h1>Local List</h1>
+        <div className="table-responsive">
+          <table className="table">
+            <thead>
               <tr>
                 <th>Local</th>
                 <th>Location</th>
@@ -23,6 +23,8 @@ class LocalList extends Component {
                 <th>Comment</th>
                 <th>Detail</th>
               </tr>
+            </thead>
+            <tbody>
               <tr>
                 <td>Pasadena Church</td>
                 <td>227 70th St S, St Petersburg, FL 33707</td>

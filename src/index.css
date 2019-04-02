@@ -54,10 +54,7 @@ body {
   margin: 0.5rem 0rem;
   letter-spacing: 0.5rem;
 }
-/* .language-section {
-  display: flex;
-  align-items: top;
-} */
+
 .language-word {
   margin-top: 0.3rem;
 }
@@ -100,15 +97,32 @@ body {
 }
 /* Home component ends */
 /* LocalList component begins */
-.local-list {
+/* .local-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #eec170;
-  border-radius: 1rem;
+  align-items: center; */
+/* background-color: #d1b6e1; */
+/* border-radius: 1rem;
   margin: 2rem;
-}
-.local-list table {
+  overflow-x: auto;
+} */
+/* table {
+  overflow: auto;
+} */
+/* thead tr {
+  background-color: #d1b6e1;
+} */
+/* 
+tbody tr {
+  background-color: #d1b6e1;
+} */
+
+/* .table-responsive-sm {
+  overflow-y: hidden;
+  overflow-x: auto;
+} */
+
+/* .local-list table {
   text-align: center;
 }
 .local-list th {
@@ -116,7 +130,7 @@ body {
 }
 .local-list td {
   padding: 0.5rem;
-}
+} */
 /* LocalList component ends */
 /* LocalRegistration component begins */
 .local-registration-section {
